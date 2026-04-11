@@ -2,27 +2,22 @@
 
 ## Resumen
 
-Se ejecutaron un total de 3 casos de prueba sobre los módulos definidos.
+Se ejecutaron un total de 8 casos de prueba sobre los módulos de login y carrito.
 
 ## Resultados
 
-- PASSED: 2
+- PASSED: 7
 - FAILED: 1
 - BLOQUEADOS: 0
 
 ## Observaciones
 
-Durante la ejecución de los casos de prueba se detectó un error en la validación de campos vacíos en el login, donde el sistema no entrega un mensaje claro al usuario.
+Durante la ejecución se validó correctamente el funcionamiento general de los módulos de login y carrito.
 
-Además, se identificó un posible problema de usabilidad en la ubicación del mensaje de error en el caso de credenciales incorrectas, lo que podría afectar la experiencia del usuario.
+Se detectó un error en la validación de campos vacíos en el login, donde el mensaje entregado al usuario no comunica claramente la causa del problema.
 
-Se recomienda:
-- Mejorar la claridad de los mensajes de validación
-- Revisar la ubicación visual de los mensajes de error
-
+Además, se observaron oportunidades de mejora en la experiencia de usuario, particularmente en la visibilidad de mensajes de confirmación y en la edición de cantidades desde vistas resumidas del carrito.
 
 ## Conclusión
 
-El sistema cumple parcialmente con los requerimientos funcionales evaluados.
-
-Si bien los flujos principales funcionan, existen oportunidades de mejora en la comunicación de errores al usuario, lo cual es clave para una buena experiencia de uso.
+El sistema cumple en términos generales con los flujos funcionales evaluados. No obstante, persisten oportunidades de mejora en la comunicación visual hacia el usuario y en ciertos aspectos de usabilidad.
