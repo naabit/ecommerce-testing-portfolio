@@ -46,3 +46,26 @@
 
 - **Evidencia:**
 ![evidencia](./evidence/checkout/img-404.png)
+
+## BUG-003
+
+- **Título:** La vista de login lanza error JavaScript al cargar la página
+- **Severidad:** Media
+- **Prioridad:** Media
+
+- **Pasos para reproducir:**
+  1. Acceder a la vista de login
+  2. Abrir la consola del navegador
+  3. Esperar la carga completa de la página
+
+- **Resultado esperado:**
+  - La página debe cargar sin errores de JavaScript
+
+- **Resultado actual:**
+  - Se produce un error `Cannot set properties of null (setting 'textContent')` durante la carga
+
+- **Impacto:**
+  - Puede afectar el comportamiento de la interfaz y bloquear pruebas automatizadas
+
+- **Evidencia:**
+![evidencia](./evidence/login/login-cypress.png)
